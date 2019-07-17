@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testmem_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testmem" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="589578982630000fs"></ZoomStartTime>
+      <ZoomEndTime time="600038982630001fs"></ZoomEndTime>
+      <Cursor1Time time="306482968850000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="108"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/testmem/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/start_p" type="logic">
+      <obj_property name="ElementShortName">start_p</obj_property>
+      <obj_property name="ObjectShortName">start_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/SADR" type="array">
+      <obj_property name="ElementShortName">SADR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">SADR[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/PS" type="array">
+      <obj_property name="ElementShortName">PS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/i2cclockic/PS" type="array">
+      <obj_property name="ElementShortName">PS[4:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/send_now" type="logic">
+      <obj_property name="ElementShortName">send_now</obj_property>
+      <obj_property name="ObjectShortName">send_now</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/aram/douta" type="array">
+      <obj_property name="ElementShortName">douta[15:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/aram/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/r_en" type="logic">
+      <obj_property name="ElementShortName">r_en</obj_property>
+      <obj_property name="ObjectShortName">r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/dram/douta" type="array">
+      <obj_property name="ElementShortName">douta[7:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/dram/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/addr" type="array">
+      <obj_property name="ElementShortName">addr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/i2cclockic/address" type="array">
+      <obj_property name="ElementShortName">address[15:0]</obj_property>
+      <obj_property name="ObjectShortName">address[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/i2cclockic/addrh" type="array">
+      <obj_property name="ElementShortName">addrh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addrh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/i2cclockic/addrl" type="array">
+      <obj_property name="ElementShortName">addrl[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addrl[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/i2cclockic/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/data" type="array">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/alldone" type="logic">
+      <obj_property name="ElementShortName">alldone</obj_property>
+      <obj_property name="ObjectShortName">alldone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/i2cclockic/wb_dat_o" type="array">
+      <obj_property name="ElementShortName">wb_dat_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testmem/control/counter" type="array">
+      <obj_property name="ElementShortName">counter[23:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[23:0]</obj_property>
+   </wvobject>
+</wave_config>
